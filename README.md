@@ -31,7 +31,7 @@ For the "BEFORE" metrics, all resources were originally deployed and exposed to 
 
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic, with the exception of my admin workstation, and all other resources were protected by their built-in firewalls and Private Endpoint.
 
-## Attack Maps Before Hardening / Security Controls
+## Attack Maps Before Hardening / Security Controls<br>
 ![image](https://github.com/AjayBery/Azure-SOC/assets/143306721/299f4599-8430-414c-8f52-b103e652c957)<br>
 ![image](https://github.com/AjayBery/Azure-SOC/assets/143306721/43b2934a-f61f-4a94-9ac0-a456288d36f2)<br>
 ![image](https://github.com/AjayBery/Azure-SOC/assets/143306721/71c954ce-7a3f-4b5a-9b61-08ed34e75cd5)<br>
@@ -41,9 +41,9 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 ## Metrics Before Hardening / Security Controls
 
-The following table shows the metrics I measured in my insecure environment for 24 hours:
-Start Time 2023-08-21 19:31
-Stop Time 2023-08-22 19:31
+The following table shows the metrics I measured in my insecure environment for 24 hours:<br>
+Start Time 2023-08-21 19:31<br>
+Stop Time 2023-08-22 19:31<br>
 
 | Metric                   | Count
 | ------------------------ | -----
@@ -59,9 +59,9 @@ Stop Time 2023-08-22 19:31
 
 ## Metrics After Hardening / Security Controls
 
-The following table shows the metrics I measured in my environment for another 24 hours, AFTER security controls were applied:
-Start Time 2023-08-26 01:58
-Stop Time	2023-08-27 01:58
+The following table shows the metrics I measured in my environment for another 24 hours, AFTER security controls were applied:<br>
+Start Time 2023-08-26 01:58<br>
+Stop Time	2023-08-27 01:58<br>
 
 | Metric                   | Count
 | ------------------------ | -----
